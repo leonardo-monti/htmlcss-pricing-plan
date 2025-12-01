@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+body {
+    background: #f4f4f4;
+}
+
+.title {
+    padding: 30px 20px;
+
+}
+
+.title p {
+    color: #666;
+    margin-top: 10px;
+}
+
+.select {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.pricing-container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 30px 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: #fff;
+    width: 100%;
+    max-width: 330px;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.purple {
+    background: #6a00ff;
+    color: white;
+}
+
+.price span {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.offer span {
+    background: #ddd;
+    padding: 3px 6px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.button {
+    text-align: center;
+    background: #6a00ff;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.purple-btn {
+    background: white;
+    color: #6a00ff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 6px 0;
+}
